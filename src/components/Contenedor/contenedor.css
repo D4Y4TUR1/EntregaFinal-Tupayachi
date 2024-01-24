@@ -1,0 +1,20 @@
+.contenedorproductos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: 292827;
+    color: white;
+    width: auto;
+}
+.productos{
+    width: 250px;
+    height: 200px;
+    border: 2px solid rgba(254, 253, 255, 0.945);
+    border-radius: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #D8284C;
+}
