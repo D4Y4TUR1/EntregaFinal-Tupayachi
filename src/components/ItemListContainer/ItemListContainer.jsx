@@ -15,7 +15,7 @@ const ItemListContainer = ({greeting}) => {
             }
         }
         fetchData()
-    },[]);
+    },[])
 
     return (
         <div className='itemListContainer'>
