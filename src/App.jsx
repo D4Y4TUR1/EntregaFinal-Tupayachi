@@ -33,14 +33,7 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ItemListContainer greeting={"Bienvenidos a mi E-comerce"}/>
-    {
-      productos.map((p) => {
-        return(
-          <Contenedor producto={p.producto} precio={p.precio} stock={p.stock}/>
-        )
-      })
-    }
+    <ItemListContainer greeting={"Bienvenidos a mi E-commerce"}/>
 
     </>
   )

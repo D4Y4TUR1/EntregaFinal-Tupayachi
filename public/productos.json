@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "nombre": "Straps",
+        "precio": 25,
+        "stock": 5,
+        "descripcion": "Straps para peso muerto, color negro.",
+        "img": "../src/assets/img/straps.jpg"    
+    },
+    {
+        "id": 2,
+        "nombre": "Guantes para gym",
+        "precio": 20,
+        "stock": 12,
+        "descripcion": "Pares de guantes con palma de gamusa, variedad de colores y diseños." ,
+        "img": "../src/assets/img/guantes.jpg"      
+    },
+    {
+        "id": 3,
+        "nombre": "Proteina Whey",
+        "precio": 359,
+        "stock": 15,
+        "descripcion": "Aislados de Proteína de suero (WPI) son la forma más pura de proteína de suero de leche que existe en la actualidad." ,
+        "img": "../src/assets/img/proteina.jpg"       
+    },
+    {
+        "id": 4,
+        "nombre": "Cinturones para peso",
+        "precio": 40,
+        "stock": 7,
+        "descripcion": "Cinturones de cuero, tallas S M L XL",
+        "img": "../src/assets/img/cinturon.jpg"    
+    
+    }
+]

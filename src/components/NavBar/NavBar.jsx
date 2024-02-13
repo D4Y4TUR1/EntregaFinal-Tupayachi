@@ -17,19 +17,19 @@ const NavBar = () => {
             <nav>
                 <ul>
                     <li>
-                        <a href="">INICIO</a>
+                        <a href="#">INICIO</a>
                     </li>
                     <li>
-                        <a href="">PLANES</a>
+                        <a href="#">SUPLEMENTOS</a>
                     </li>
                     <li>
-                        <a href="">PRODUCTOS</a>
+                        <a href="#">ACCESORIOS</a>
                     </li>
                     <li>
-                        <a href="">HORARIOS</a>
+                        <a href="#">ROPA DEPORTIVA</a>
                     </li>
                     <li>
-                        <a href="">CONTACTO</a>
+                        <a href="#">CONTACTO</a>
                     </li>
                 </ul>
             </nav>

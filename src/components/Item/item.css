@@ -8,7 +8,7 @@
 }
 .productos{
     width: 250px;
-    height: 200px;
+    height: 300px;
     border: 2px solid rgba(254, 253, 255, 0.945);
     border-radius: 8px;
     display: grid;
@@ -17,4 +17,8 @@
     margin: 10px;
     cursor: pointer;
     background-color: #D8284C;
+}
+.imgproducto{
+    width: 150px;
+    height: 150px;
 }
