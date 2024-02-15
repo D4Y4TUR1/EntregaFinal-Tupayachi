@@ -7,7 +7,9 @@ const Item = ({producto, indice}) => {
         <Link to={`/detalle/${producto.id}`}>
             <div className='contenedorproductos' key={indice}>
                 <section className='productos'>
-                    <img className='imgproducto' src={producto.img} alt="imagen del producto" />
+                    <section className='contenedorImg'>
+                        <img className='imgproducto' src={producto.img} alt="imagen del producto" />
+                    </section>
                     <h2>{producto.nombre}</h2>
                     <p>Precio online: S/. {producto.precio}</p>
                 </section>         

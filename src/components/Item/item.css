@@ -23,3 +23,8 @@
     width: 150px;
     height: 150px;
 }
+
+.contenedorImg{
+    display: flex;
+    justify-content: center;
+}

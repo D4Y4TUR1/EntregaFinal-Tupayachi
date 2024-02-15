@@ -1,20 +1,32 @@
+.contenedorPrincipalError{
+    display: grid;
+    justify-content: center;
+
+}
 .tituloError{
-    padding: 100px 50px;
+    padding: 80px 0px 0px 0px;
     text-align: center;
 }
 .contenedorError{
-    display: flex;
+    display: grid;
     align-content: center;
     align-items: center;
-    padding: 0px 50px;
+    justify-content: center;
+    padding: 0px 5px;
 }
 .mensaje{
     display: flex;
-    padding: 20px 300px;
+    padding: 20px 20px;
     align-content: center;
     align-items: center;
+    background-color: #b11d3ac4;
 }
-.imgError{
-    width: 600px;
+.imgError{  
+    width: 500px;
     height: auto;
+}
+
+.contenedorImgError{
+    display: flex;
+    justify-content: center;
 }
