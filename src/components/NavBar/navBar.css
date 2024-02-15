@@ -22,7 +22,6 @@
     display: inline;
 }
 .navBar section nav ul a {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: #faebd7;
     font-size: 14px;
@@ -37,4 +36,16 @@
 	width: 100px;;
 	height: auto;
 	border-radius: 35px;
+}
+
+.navBar section nav ul a.active {
+    background-color: black;
+    color: #D8284C;
+    border: 2px solid #D8284C;
+
+}
+
+.navBar section nav ul a:active {
+    color: blueviolet;
+
 }

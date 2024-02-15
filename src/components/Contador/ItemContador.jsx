@@ -16,7 +16,7 @@ const ItemContador = ({inicial, stock}) => {
     }
 
     const incrementar = () =>{
-        if (contador < stock ){      //Hay en stock 100 
+        if (contador < stock ){      
             setContador(contador +1 )
         }
     }

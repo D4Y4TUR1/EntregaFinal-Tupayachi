@@ -5,7 +5,8 @@
         "precio": 25,
         "stock": 5,
         "descripcion": "Straps para peso muerto, color negro.",
-        "img": "../src/assets/img/straps.jpg"    
+        "img": "../src/assets/img/straps.jpg",
+        "categoria": "Accesorios"    
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "precio": 20,
         "stock": 12,
         "descripcion": "Pares de guantes con palma de gamusa, variedad de colores y diseños." ,
-        "img": "../src/assets/img/guantes.jpg"      
+        "img": "../src/assets/img/guantes.jpg",
+        "categoria": "Accesorios"       
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "precio": 359,
         "stock": 15,
         "descripcion": "Aislados de Proteína de suero (WPI) son la forma más pura de proteína de suero de leche que existe en la actualidad." ,
-        "img": "../src/assets/img/proteina.jpg"       
+        "img": "../src/assets/img/proteina.jpg",
+        "categoria": "Suplementos"        
     },
     {
         "id": 4,
@@ -29,40 +32,44 @@
         "precio": 40,
         "stock": 7,
         "descripcion": "Cinturones de cuero, tallas S M L XL",
-        "img": "../src/assets/img/cinturon.jpg"    
+        "img": "../src/assets/img/cinturon.jpg",
+        "categoria": "Accesorios"     
     
     },
     {
         "id": 5,
-        "nombre": "Straps",
-        "precio": 25,
-        "stock": 5,
-        "descripcion": "Straps para peso muerto, color negro.",
-        "img": "../src/assets/img/straps.jpg"    
+        "nombre": "Leggins Push Up",
+        "precio": 65,
+        "stock": 15,
+        "descripcion": "Destaca tu figura con nuestros leggings push up! Diseñados para realzar tus curvas naturales, estos leggings te brindan el soporte y la comodidad que necesitas durante tus entrenamientos.",
+        "img": "../src/assets/img/legginsPushUp.jpg",
+        "categoria": "Ropa"        
     },
     {
         "id": 6,
-        "nombre": "Guantes para gym",
-        "precio": 20,
-        "stock": 12,
-        "descripcion": "Pares de guantes con palma de gamusa, variedad de colores y diseños." ,
-        "img": "../src/assets/img/guantes.jpg"      
+        "nombre": "Polo Futbol Adidas",
+        "precio": 80,
+        "stock": 9,
+        "descripcion": "Fabricado con materiales de alta calidad que proporcionan transpirabilidad y comodidad, este polo te mantendrá fresco y seco en todo momento." ,
+        "img": "../src/assets/img/poloFutbolHombreAdidas.webp",
+        "categoria": "Ropa"           
     },
     {
         "id": 7,
-        "nombre": "Proteina Whey",
-        "precio": 359,
+        "nombre": "Polo Hombre Puma",
+        "precio": 69,
         "stock": 15,
-        "descripcion": "Aislados de Proteína de suero (WPI) son la forma más pura de proteína de suero de leche que existe en la actualidad." ,
-        "img": "../src/assets/img/proteina.jpg"       
+        "descripcion": "Diseñado para brindar un rendimiento excepcional y un estilo deportivo moderno, este polo es perfecto para tus entrenamientos y para tu día a día. Fabricado con tejidos transpirables y de secado rápido, te mantendrás fresco y cómodo en cualquier actividad." ,
+        "img": "../src/assets/img/poloPumaHombre.webp",
+        "categoria": "Ropa"            
     },
     {
         "id": 8,
-        "nombre": "Cinturones para peso",
-        "precio": 40,
-        "stock": 7,
-        "descripcion": "Cinturones de cuero, tallas S M L XL",
-        "img": "../src/assets/img/cinturon.jpg"    
-    
+        "nombre": "Tomatodo Deportivo",
+        "precio": 15,
+        "stock": 8,
+        "descripcion": "Mantente hidratado y en forma con nuestro tomatodo deportivo fitness! Diseñado para acompañarte en tus entrenamientos más intensos, este tomatodo es la elección perfecta para mantener tu cuerpo en óptimas condiciones. Fabricado con materiales duraderos y libres de BPA, garantiza la seguridad de tus líquidos mientras te ejercitas.",
+        "img": "../src/assets/img/tomatodoDeportivo.jpg",
+        "categoria": "Suplementos"         
     }
 ]

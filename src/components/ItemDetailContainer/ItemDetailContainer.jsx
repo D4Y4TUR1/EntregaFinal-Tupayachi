@@ -1,12 +1,16 @@
 import React, {useEffect,useState}from 'react'
 import ItemDetail from '../ItemDetail/ItemDetail';
-const ItemDetailContainer = ({id}) => {
+import { useParams } from 'react-router-dom';
+
+const ItemDetailContainer = () => {
     const [producto, setproducto] = useState([]);
+
+    const {id} = useParams()
 
     useEffect(() =>{
         const fetchData = async () =>{
             try {
-                const response = await fetch("./productos.json");
+                const response = await fetch("/productos.json");
                 const data = await response.json()
                 const product = data.find((p)=>p.id == id)
                 setproducto(product)

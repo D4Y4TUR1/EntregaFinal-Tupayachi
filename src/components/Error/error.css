@@ -1,0 +1,20 @@
+.tituloError{
+    padding: 100px 50px;
+    text-align: center;
+}
+.contenedorError{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+.mensaje{
+    display: flex;
+    padding: 20px 300px;
+    align-content: center;
+    align-items: center;
+}
+.imgError{
+    width: 600px;
+    height: auto;
+}
