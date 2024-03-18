@@ -6,6 +6,8 @@ import Error from './components/Error/Error'
 import Cart from './components/Cart/Cart'
 import ThemeProvider from './context/ThemeContext'
 import CartProvider from './context/CartContext'
+import { getFirestore, doc, getDoc } from 'firebase/firestore'
+
 function App() {
 
   return (

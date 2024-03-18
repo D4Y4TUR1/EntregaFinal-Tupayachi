@@ -2,31 +2,34 @@ import React, {useEffect, useState} from 'react'
 import "./itemListContainer.css"
 import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
+import { collection,getDocs,getFirestore,query,where } from 'firebase/firestore';
 
 const ItemListContainer = ({greeting}) => {
-    const [productos, setproductos] = useState([]);
+    const [productos,setProductos] = useState([]);
 
-    const {categoriaId} = useParams()
+    const {categoryId} = useParams()
 
-    useEffect(() =>{
-        const fetchData = async () =>{
-            try {
-                const response = await fetch("/productos.json");
-                const data = await response.json()
+    useEffect(()=>{
+        const db = getFirestore()
 
-                if(categoriaId){
-                    const filteredProductos = data.filter((p) => p.categoria == categoriaId);
-                    setproductos(filteredProductos)
-                }else{
-                    setproductos(data)
-                }
+        const misProductos = 
+        categoryId ? 
+        query(collection(db,"Productos-XW"),where("categoria","==",categoryId))
+        :
+        collection(db,"Productos-XW")
 
-            } catch (error){
-                console.log("Hubo un error en el fetch "+error)
-            }
-        }
-        fetchData()
-    },[categoriaId])
+        getDocs(misProductos)
+        .then((res) => {
+            const nuevosProductos = res.docs.map((doc) => {
+                const data = doc.data()
+                return {id: doc.id,...data}
+            })
+            setProductos(nuevosProductos)
+        })
+        .catch((error) => console.log(error))
+
+    },[categoryId])
+
 
     return (
         <div className='itemListContainer'>
