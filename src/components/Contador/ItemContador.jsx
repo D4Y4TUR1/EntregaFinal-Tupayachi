@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-const ItemContador = ({inicial, stock}) => {
+const ItemContador = ({inicial, stock, agregar}) => {
 
     //Estado del componente
     const [contador, setContador] = useState(1);
@@ -12,7 +12,7 @@ const ItemContador = ({inicial, stock}) => {
     }
     
     const agregarCarrito = () =>{
-        alert('Agregaste ' + contador + ' producto(s)');
+        agregar(contador)
     }
 
     const incrementar = () =>{

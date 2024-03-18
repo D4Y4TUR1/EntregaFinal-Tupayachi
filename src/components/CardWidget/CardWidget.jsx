@@ -1,11 +1,15 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import "./cardwidget.css"
+import { CartContext } from '../../context/CartContext'
 const CardWidget = () => {
+
+    const {totalCantidad} = useContext(CartContext)
+
     return (
         <>
         <img className='imgCarrito' src="/CarritoDeCompras.png" alt="" />
 
-        <p>0</p>       
+        <p>{totalCantidad == 0 ? null : totalCantidad}</p>       
         </>
 
         
