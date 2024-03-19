@@ -24,7 +24,11 @@ const ItemDetailContainer = () => {
 
     return (
         <div>
-            <ItemDetail producto={producto}/>
+            { producto.length == 0 
+            ? 
+            <h1>Cargando...</h1> 
+            : 
+            <ItemDetail producto={producto}/> }
         </div>
     )
 }

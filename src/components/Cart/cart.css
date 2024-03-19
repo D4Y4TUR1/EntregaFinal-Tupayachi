@@ -1,0 +1,34 @@
+.ContenedorCart{
+    margin-top: 110px;
+    
+}
+
+
+.contenedorCompra{
+    width: 600px;
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.botonCompra {
+    padding: 5px 120px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botonCompra:hover {
+    background-color: #000000;
+}
+
+.botonCompra:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

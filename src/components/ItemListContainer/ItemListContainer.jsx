@@ -7,14 +7,14 @@ import { collection,getDocs,getFirestore,query,where } from 'firebase/firestore'
 const ItemListContainer = ({greeting}) => {
     const [productos,setProductos] = useState([]);
 
-    const {categoryId} = useParams()
+    const {categoriaId} = useParams()
 
     useEffect(()=>{
         const db = getFirestore()
 
         const misProductos = 
-        categoryId ? 
-        query(collection(db,"Productos-XW"),where("categoria","==",categoryId))
+        categoriaId ? 
+        query(collection(db,"Productos-XW"),where("categoria","==",categoriaId))
         :
         collection(db,"Productos-XW")
 
@@ -28,16 +28,20 @@ const ItemListContainer = ({greeting}) => {
         })
         .catch((error) => console.log(error))
 
-    },[categoryId])
+    },[categoriaId])
 
 
     return (
         <div className='itemListContainer'>
             
-                <h1 className='bienvenida'>{greeting}</h1>
+            <h1 className='bienvenida'>{greeting}</h1>
                 
             
-            { productos.length == 0 ? <h1>Cargando...</h1> : <ItemList productos={productos}/> }
+            { productos.length == 0 
+            ? 
+            <h1>Cargando...</h1> 
+            :
+            <ItemList productos={productos}/> }
 
         </div>
     )

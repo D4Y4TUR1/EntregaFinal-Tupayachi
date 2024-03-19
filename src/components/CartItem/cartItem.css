@@ -1,0 +1,26 @@
+.contenedorCarritoItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: auto;
+    padding: 40px;
+}
+.productoCarritoItem{
+    width: 600px;
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.imgproductoCarritoItem{
+    width: 350px;
+    height: 350px;
+}
+
+.contenedorimgItem{
+    display: flex;
+    justify-content: center;
+}

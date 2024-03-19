@@ -7,6 +7,7 @@ import Cart from './components/Cart/Cart'
 import ThemeProvider from './context/ThemeContext'
 import CartProvider from './context/CartContext'
 import { getFirestore, doc, getDoc } from 'firebase/firestore'
+import Checkout from './components/Checkout/Checkout'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/categoria/:categoriaId' element={ <ItemListContainer />}/>
           <Route path='/detalle/:id' element={ <ItemDetailContainer />}/>
           <Route path='/cart' element={ <Cart />}/>
+          <Route path='/checkout' element={ <Checkout />}/>
           <Route path='*' element={<Error/>} />
 
         </Routes>
