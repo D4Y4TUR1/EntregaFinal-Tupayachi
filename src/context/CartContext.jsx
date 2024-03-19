@@ -29,7 +29,7 @@ const CartProvider = ({children}) => {
     }
 
     const cantidadCarrito = () => {
-        const totalQuantity = cart.reduce((total,item)=> total+item.cantidad,0)
+        const totalQuantity = cart.reduce((total,item)=> total+ item.cantidad,0)
         return totalQuantity 
     }
 
