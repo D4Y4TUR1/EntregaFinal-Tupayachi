@@ -2,10 +2,10 @@ import React from 'react'
 import "./item.css"
 import { Link, NavLink } from 'react-router-dom'
 
-const Item = ({producto, indice}) => {
+const Item = ({producto}) => {
     return (
         <Link to={`/detalle/${producto.id}`}>
-            <div className='contenedorproductos' key={indice}>
+            <div key={producto.id}  className='contenedorproductos'>
                 <section className='productos'>
                     <section className='contenedorImg'>
                         <img className='imgproducto' src={producto.img} alt="imagen del producto" />
