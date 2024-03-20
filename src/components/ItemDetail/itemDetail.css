@@ -20,6 +20,7 @@
 .imgproductoDetalle{
     width: 350px;
     height: 350px;
+    border-radius: 15px;
 }
 
 .contenedorImgDetalle{

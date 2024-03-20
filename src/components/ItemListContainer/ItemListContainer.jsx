@@ -36,11 +36,14 @@ const ItemListContainer = ({greeting}) => {
             
             <h1 className='bienvenida'>{greeting}</h1>
                 
+            <img className='imgBanner' src="./banner.png" alt="" />
             
+            <h2>Nuestros Productos</h2>
             { productos.length == 0 
             ? 
             <h1>Cargando...</h1> 
             :
+            
             <ItemList productos={productos}/> }
 
         </div>
