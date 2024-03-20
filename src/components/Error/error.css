@@ -1,7 +1,7 @@
 .contenedorPrincipalError{
     display: grid;
     justify-content: center;
-
+    height: 100vh; 
 }
 .tituloError{
     padding: 80px 0px 0px 0px;
@@ -20,6 +20,7 @@
     align-content: center;
     align-items: center;
     background-color: #D8284C;
+    border-radius: 5px;
 }
 .imgError{  
     width: 500px;

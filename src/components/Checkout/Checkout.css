@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000vh; /* Ajusta la altura según necesites */
+    height: 110vh; 
 }
 .contenedor {
     display: grid;
@@ -75,6 +75,7 @@
     margin-top: 10px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 100px 30px;    
 }
 
 .confirmacion {
@@ -83,9 +84,10 @@
     display: block;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 100px 30px;
 }
 
-.imgproductoChechout{
+.imgproductoCheckout{
     width: 180px;
     height: auto;
     border-radius: 15px;

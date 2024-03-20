@@ -26,9 +26,9 @@ const ItemContador = ({inicial, stock, agregar}) => {
         <div>
             <section>
                 <p>Cantidad: {contador}</p>
-                <button onClick={decrementar}>-</button>
-                <button onClick={agregarCarrito}>Agregar al carrito</button>
-                <button onClick={incrementar}>+</button>
+                <button onClick={decrementar} disabled={contador <= inicial} aria-label="Disminuir cantidad">-</button>
+                <button onClick={agregarCarrito} aria-label="Agregar al carrito">Agregar al carrito</button>
+                <button onClick={incrementar} disabled={contador >= stock} aria-label="Aumentar cantidad">+</button>
             </section>
         </div>
     )

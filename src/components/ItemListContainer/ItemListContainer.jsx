@@ -41,7 +41,7 @@ const ItemListContainer = ({greeting}) => {
             <h2>Nuestros Productos</h2>
             { productos.length == 0 
             ? 
-            <h1>Cargando...</h1> 
+            <h1>Cargando Productos...</h1> 
             :
             
             <ItemList productos={productos}/> }

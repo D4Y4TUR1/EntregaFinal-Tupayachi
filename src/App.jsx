@@ -4,12 +4,10 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Error from './components/Error/Error'
 import Cart from './components/Cart/Cart'
-import ThemeProvider from './context/ThemeContext'
 import CartProvider from './context/CartContext'
 import { getFirestore, doc, getDoc } from 'firebase/firestore'
 import Checkout from './components/Checkout/Checkout'
 import Contacto from './components/Contacto/Contacto'
-
 
 function App() {
 

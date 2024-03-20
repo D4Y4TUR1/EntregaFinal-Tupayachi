@@ -31,3 +31,8 @@
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+.carritoVacio{
+    width: 200px;
+    height: auto;
+}
